@@ -5,34 +5,36 @@ from dataset_tools.templates import AnnotationType, CVTask, Industry, License
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = None
-PROJECT_NAME_FULL: Optional[str] = None
+PROJECT_NAME: str = "Plastic Bottles"
+PROJECT_NAME_FULL: Optional[str] = "Plastic Bottles"
 
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = None
-INDUSTRIES: List[Industry] = None
-CV_TASKS: List[CVTask] = None
-ANNOTATION_TYPES: List[AnnotationType] = None
+LICENSE: License = License.CC0_1_0()
+INDUSTRIES: List[Industry] = [Industry.Industrial()]
+CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
+ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
 
-RELEASE_YEAR: int = None
-HOMEPAGE_URL: str = None
+RELEASE_YEAR: int = 2020
+HOMEPAGE_URL: str = "https://github.com/m0-n/Plastic-Bottles-Dataset"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = None
+PREVIEW_IMAGE_ID: int = 401829
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
-GITHUB_URL: str = None
+GITHUB_URL: str = "https://github.com/dataset-ninja/plastic-bottles"
 # URL to GitHub repo on dataset ninja (e.g. "https://github.com/dataset-ninja/some-dataset")
 
 ##################################
 ### * Optional after uploading ###
 ##################################
-DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = None
+DOWNLOAD_ORIGINAL_URL: Optional[
+    Union[str, dict]
+] = "https://github.com/m0-n/Plastic-Bottles-Dataset/archive/master.zip"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
-CLASS2COLOR: Optional[Dict[str, List[str]]] = None
+CLASS2COLOR: Optional[Dict[str, List[str]]] = {"Plastic Bottle": [255, 0, 0]}
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = None
