@@ -1,6 +1,6 @@
-Dataset **Plastic Bottles** can be downloaded in Supervisely format:
+Dataset **Plastic Bottles** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervise.ly/supervisely-supervisely-assets-public/teams_storage/4/h/TD/EXhjZDolSHCMOZOOWwT3Llx5YO4BRBwiCJlQSkcfCCewB7t14a6JkTURmfQXGJB07KvJ0v0Pve9jbSETMOcytHkBg7KpLbM2J5KOPr7V4QDHNDWZlssE4Z9IVPdH.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/6/w/kb/8bdMAzx0WdoF2Weiad1bnOt1z9yL9zs5HXPOqmZBaliFelb3hoTnBCtS0ZYjJrSqzRPAjZDF0L3dPkKQJhC4X9VAJbQtKX67gwLmT2dDa4PlEsqBtVPQXuRmcRe9.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
@@ -11,6 +11,8 @@ pip install --upgrade dataset-tools
 ``` python
 import dataset_tools as dtools
 
-dtools.download(dataset='Plastic Bottles', dst_path='~/dtools/datasets/Plastic Bottles.tar')
+dtools.download(dataset='Plastic Bottles', dst_dir='~/dataset-ninja/')
 ```
-The data in original format can be 🔗[downloaded here](https://github.com/m0-n/Plastic-Bottles-Dataset/archive/master.zip)
+Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
+
+The data in original format can be [downloaded here](https://github.com/m0-n/Plastic-Bottles-Dataset/archive/master.zip).
