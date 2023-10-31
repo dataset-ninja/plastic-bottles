@@ -48,7 +48,7 @@ DOWNLOAD_ORIGINAL_URL: Optional[
 ] = "https://github.com/m0-n/Plastic-Bottles-Dataset/archive/master.zip"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
-CLASS2COLOR: Optional[Dict[str, List[str]]] = {"Plastic Bottle": [255, 0, 0]}
+CLASS2COLOR: Optional[Dict[str, List[str]]] = {"plastic bottle": [255, 0, 0]}
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = None
