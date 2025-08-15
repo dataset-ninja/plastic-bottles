@@ -1,6 +1,6 @@
 Dataset **Plastic Bottles** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzE1NDdfUGxhc3RpYyBCb3R0bGVzL3BsYXN0aWMtYm90dGxlcy1EYXRhc2V0TmluamEudGFyIiwgInNpZyI6ICI2UjVDY0g5Z0tFYy9jYWR6dVJmTUxWVDh1TEtwZGM3SlEzR0pNQnFGRUFzPSJ9)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogInMzOi8vc3VwZXJ2aXNlbHktZGF0YXNldHMvMTU0N19QbGFzdGljIEJvdHRsZXMvcGxhc3RpYy1ib3R0bGVzLURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogIlpyNnRZRmUzWXA5dVZaNDdLTGpuNDRMcHlRdEpqT2FOejA3MUdpWlhXWjA9In0=?response-content-disposition=attachment%3B%20filename%3D%22plastic-bottles-DatasetNinja.tar%22)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
